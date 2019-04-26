@@ -1,0 +1,4 @@
+mais paginas - 4
+1 pagina para trabalhos feitos
+1 pagina para habilidades
+1 pagina para contato que vai ser usada depois com o php
