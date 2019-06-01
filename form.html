@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>formulario de contato</title>
+    <link rel="stylesheet" type="text/css" href="stile.css">
+</head>
+<body>
+    <div class="site">
+        <form name="form">
+            <h1>Entre em contato</h1>
+            <p class="nome">
+                <input type="text" id="nomeId" placeholder="escreva aqui" required="required" name="nome"/>
+                <label for="nome">Nome</label>
+            </p>
+
+            <p class="fone">
+                <input type="text" id="foneId" placeholder="(xx) xxxx-xxxx" name="fone"/>
+                <label for="fone">Fone</label>
+            </p>
+
+            <p>
+                <input type="email" id="emailId" placeholder="SeuEmail@gmail.com" name="email"/>
+                <label for="email">Email</label>
+            </p>
+
+            <p>
+                <textarea placeholder="deixe sua opniao"></textarea>
+            </p>
+
+            <p class="submit">
+                <input type="submit" onclick="enviar();" value="Enviar"/>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
+
+<script type="text/javascript">
+    function enviar()
+    {
+        var nome = document.getElementById("nomeId");
+        var email = document.getElementById("emailId");
+        var fone = document.getElementById("foneId");
+        if(nome.value != "" && email.value !="" && fone.value!="")
+        {
+            alert('obrigado sr(a) ' + nome.value + ' seu email é ' + email.value + ' o seu zap é '+ fone.value + ' e os seus dados foram enviados');
+        } else {
+            alert('vc n escreveu algum meu bom');
+        }
+
+    }
+
+</script>
