@@ -1,37 +1,191 @@
-body
-{
-	background: url(calc.jpg);
+ body{
+        padding: 0;
+        margin: 0;
+        background-color: #000;
+        background: url(BG2.png);
+        height: 100%; 
+        //background-position: center;
+        //background-repeat: no-repeat;
+        //background-size: cover;
+        min-width: 980px;
 
+    }
+
+  
+    form {
+        margin-top: 50px;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
+        font-family: 'Lao UI';
+        font-size: 20px;
+        background-color: #DADADA;
+        max-width: 500px;
+        border: solid 10px black;      
+        border-radius: 50px;
+    }
+
+
+    .site {
+        margin-top: 50px;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
+        font-size: 20px;
+        background-color: #DADADA;
+        max-width: 600px;
+        border: solid 10px black;
+        border-radius: 50px;
+    }
+
+     .TrabTit {
+        margin-top: 50px;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
+        font-size: 20px;
+        background-color: #DADADA;
+        width: 420px;
+        height: 65px;
+        //max-width: 600px;
+        border: solid 10px black;
+        border-radius: 50px;
+    }
+    .Trab1 {
+        margin-top: 30px;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        font-size: 20px;
+        background-color: #DADADA;
+        //max-width: 600px;
+        width: 400px;
+        height: 420px;
+        border: solid 10px black;
+        border-radius: 50px;
+        float: left;
+    }
+
+    .Trab2 {
+        margin-top: 30px;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-left: 30px;
+        font-size: 20px;
+        background-color: #DADADA;
+        //max-width: 600px;
+        width: 400px;
+        height: 420px;
+        border: solid 10px black;
+        border-radius: 50px;
+        float: left;
+    }
+
+    .Trab3 {
+        margin-top: 30px;
+        margin-right: auto;
+        margin-bottom: auto;
+        font-size: 20px;
+        background-color: #DADADA;
+        //max-width: 600px;
+        width: 400px;
+        height: 420px;
+        border: solid 10px black;
+        border-radius: 50px;
+        float: right;
+    }
+
+
+
+
+    .helderfoto{
+        border: solid 5px black;
+    }
+
+    .contatotit{
+        margin-bottom: 20px;
+        margin-left: 20px;
+        color: black;
+        text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+
+    }
+
+    .titulos{
+        color: black;
+        margin-top: 0px;
+        font-family: 'Lao UI';
+        text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    }
+
+
+    input, textarea{
+        width: 200px;
+        padding: 10px;
+        color: white;
+        margin-left: 20px;
+        border: 1px solid;
+    }
+
+     input:hover, textarea:hover {
+        border-color: #ffd800;
+        box-shadow: 5px 0px 9px black;
+        background-color: black;
+        font-weight: bold;
+        
+      }
+
+    .submit input{
+        background-color: white;
+        height: 40px;
+        width: 200px;
+        font-weight: bold;
+        border-radius: 5px;
+        border: 1px solid;
+        color: black;
+    }
+
+    textarea{
+        width: 400px;
+        height: 120px;
+        max-width: 400px;
+        max-height: 100px;
+        background: url(fundo.gif);
+        background-size: 120px;
+    }
+
+    form label {
+        margin-left: 20px;
+        font-weight: bold;
+        color: black;
+        text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    }
+
+    input:focus, textarea:focus {
+        background-color: black;
+    }
+    
+    input{
+        background-color: black;
+    }
+
+.btn{
+    margin-left:20px;
+    font-family: 'Lao UI';
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: #DADADA;
+    box-shadow: 4px 5px 2px black;
+    border: solid 2px black;
 }
 
-.calculadora
-{
-	padding: 5px;
-	margin-top: 20px;
-	border-radius: 50px;
-	background: #00000090;
-	color: white;
-
-}
-
-.letras
-{
-	color: black;
-	
-}
-
-.anim
-{
-	background: red;
-	position: relative;
-	animation-name: example;
-  	animation-duration: 2s;
-  	animation-iteration-count: infinite;
-
-}
-
-@keyframes example {
-  0%   {left:0px; top:0px;}
-  50%  {left:1335px; top: 0px;}
-  100% {left:0px; top:0px;}
+.botn{
+    margin-left:20px;
+    font-family: 'Lao UI';
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: #DADADA;
+    box-shadow: 4px 5px 2px black;
+    border: solid 2px black;
 }
